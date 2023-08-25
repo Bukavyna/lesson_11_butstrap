@@ -1,0 +1,424 @@
+@import "fonts/fonts.css";
+
+.brand {
+	margin-left: 28px;
+	font-family: Libre Franklin, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.navbar-nav {
+	width: 60%;
+	margin-left: 48%;
+}
+
+.navbar-toggler-icon {
+	margin-left: -50px;
+}
+
+.card-img-overlay {
+	margin-top: 4%;
+	padding-left: 10%;
+	margin-right: 10%;
+}
+
+.card-text {
+	width: 100%;
+
+}
+
+.text-h1 {
+	font-family: Libre Franklin, sans-serif;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-top: 12%;
+}
+
+.nav-item {
+	font-family: Libre Franklin, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.text-h2 {
+	font-family: Libre Franklin, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-top: 5%;
+}
+
+.text-h3 {
+	font-family: Libre Franklin, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-decoration-line: underline;
+	margin-top: 10%;
+}
+
+.information {
+	margin: 5% 10% 6% 10%;
+}
+
+h4 {
+	font-family: Libre Franklin, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-bottom: 3%;
+}
+
+.progress {
+	width: 100%;
+	height: 693px;
+	padding-top: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.skills-box {
+	margin-top: 12%;
+}
+/*
+.skills-img {
+	width: 350px;
+	height: 340px;
+} */
+
+.skills-progress {
+	width: 100%;
+	margin-left: 8%;
+	display: flex;
+	justify-content: start;
+}
+
+.text-prog {
+	width: 37%;
+	height: 340px;
+}
+
+.prog {
+	color: #333;
+	font-family: Libre Franklin, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 25px;
+}
+
+.skills-img {
+	width: 350px;
+	height: 340px;
+}
+
+.skills-img-foto {
+	width: 359px;
+}
+
+.skills-progress {
+	width: 100%;
+	right: 340px;
+}
+
+.text-prog-1-1 {
+	margin-bottom: 64px;
+}
+
+.text-prog-2 {
+	margin-top: 21px;
+}
+
+.scale-prog-text {
+	font-family: Libre Franklin, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 25px;
+}
+
+.scale-prog-box {
+	width: 100%;
+	height: 340px;
+}
+
+.scale-prog {
+	width: 100%;
+	height: 24px;
+	background: #F5D6AB;
+	flex-shrink: 0;
+}
+
+.scale-text {
+	margin-bottom: 61px;
+}
+
+.scale-prog {
+	margin-bottom: 27px;
+}
+
+.scale-3 {
+	width: 85%;
+	height: 24px;
+	background-color: #C66C49;
+}
+
+.scale-4 {
+	width: 76%;
+	height: 24px;
+	background-color: #C66C49;
+}
+
+.scale-5 {
+	width: 60%;
+	height: 24px;
+	background-color: #C66C49;
+}
+
+.portfolio-box {
+	width: 100%;
+
+}
+
+.portfolio-h6 {
+	font-family: Libre Franklin, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 25px;
+	margin-top: 86px;
+}
+
+.portfolio-information {
+	width: 100%;
+	height: 403px;
+	margin-top: 48px;
+}
+
+.portfolio-text {
+	width: 79%;
+	height: 173px;
+	margin-bottom: 205px;
+}
+
+.span {
+	margin-top: 235px;
+	margin-left: 22px;
+	display: inline;
+}
+
+.portfolio-images {
+	width: 634px;
+}
+
+.portfolio-image-2 {
+	margin-left: 25px;
+}
+/*
+.imag-1 {
+	width: 350px;
+	height: 144px;
+}
+*/
+.imag-2 {
+	margin-top: 28px;
+}
+/*
+.imag-3 {
+	width: 255px;
+	height: 233px;
+}
+*/
+.imag-4 {
+	margin-top: 28px;
+}
+
+footer {
+	width: 100%;
+	height: 528px;
+}
+
+.footer-skills-h4 {
+	margin-top: 93px;
+}
+
+.footer-text-box {
+	margin-top: 53px;
+}
+
+.footer-text {
+	font-family: Libre Franklin, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+
+
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+
+	.progress {
+		height: 600px;
+	}
+
+	.skills-img {
+		width: 300px;
+		height: 290px;
+	}
+
+	.skills-img-foto {
+		width: 300px;
+	}
+
+	.text-prog {
+		width: 37%;
+		height: 290px;
+	}
+
+	.prog {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.text-prog-1-1 {
+		margin-bottom: 50px;
+	}
+
+	.scale-prog-box {
+		width: 100%;
+		height: 290px;
+	}
+
+	.scale-text {
+		margin-bottom: 42px;
+	}
+
+	.scale-prog {
+		margin-bottom: 23px;
+	}
+
+	.scale-prog-text {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+}
+
+
+
+
+@media screen and (max-width:992px) {
+
+	.fluid {
+		text-align: center;
+	}
+
+	.alert-information {
+		text-align: center;
+	}
+
+	.text-h1 {
+		font-family: Libre Franklin, sans-serif;
+		font-size: 56px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+
+	.text-h2 {
+		font-family: Libre Franklin, sans-serif;
+		font-size: 37px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+
+	.text-h3 {
+		font-family: Libre Franklin, sans-serif;
+		font-size: 30px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		text-decoration-line: underline;
+	}
+
+	.alert-heading {
+		font-family: Libre Franklin, sans-serif;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: normal;
+	}
+
+	.progress {
+		width: 100%;
+		height: 958px;
+	}
+
+	h4 {
+		text-align: center;
+	}
+
+	.skills {
+		margin-left: 0;
+	}
+
+	.skills-progress {
+		display: flex;
+		justify-content: center;
+		margin-left: 0;
+		margin-top: 50px;
+	}
+
+	.skills-box {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.skills-img {
+		margin: 0 auto;
+	}
+
+	.portfolio-h6 {
+		text-align: center;
+	}
+
+	.span {
+		display: none;
+	}
+
+	.portfolio-information {
+		flex-direction: column;
+	}
+
+	.portfolio-box {
+		height: 800px;
+	}
+
+	.portfolio-text {
+		width: 100%;
+		height: 100px;
+		margin-bottom: 0;
+	}
+
+	.portfolio-images {
+		width: 100%;
+	}
+
+	.imag-0 {
+		width: 100%;
+	}
+
+}
